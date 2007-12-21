@@ -17,6 +17,7 @@ Group:		Sciences/Mathematics
 BuildRequires:	X11-devel XFree86-Xvfb
 Source:		ftp://ftp.stat.umn.edu/pub/xlispstat/3-52/xlispstat-3-52-18.tar.bz2
 URL:		http://lib.stat.cmu.edu/xlispstat
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 The xlispstat package contains XLISP-PLUS, an implementation of the Lisp
