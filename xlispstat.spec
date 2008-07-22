@@ -1,6 +1,6 @@
 %define name xlispstat
 %define version 3.52.18
-%define release %mkrel 16
+%define release %mkrel 17
 
 # yves 3.52.18-9mdk -- gb hack for openoffice
 # Find a free display (resources generation requires X) and sets XDISPLAY
