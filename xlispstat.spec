@@ -14,6 +14,11 @@ Version:	%{version}
 Release:	%{release}
 License:	BSD-like
 Group:		Sciences/Mathematics
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	X11-devel XFree86-Xvfb
 Source:		ftp://ftp.stat.umn.edu/pub/xlispstat/3-52/xlispstat-3-52-18.tar.bz2
 URL:		https://lib.stat.cmu.edu/xlispstat
